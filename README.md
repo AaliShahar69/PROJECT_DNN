@@ -54,8 +54,8 @@ loss_ground_mse = F.mse_loss(z_r1, z_t_match)
 
 The model showed improved grounding between visual and textual representations.
 
-![Experiment 1 Output 1](results/exp1_grounding_1.png)
+![Experiment 1 Output 1](results/exp1_grounding_1.png.png)
 
-![Experiment 1 Output 2](results/exp1_grounding_2.png)
+![Experiment 1 Output 2](results/exp1_grounding_2.png.png)
 
-![Experiment 1 Output 3](results/exp1_grounding_3.png)
+![Experiment 1 Output 3](results/exp1_grounding_3.png.png)
