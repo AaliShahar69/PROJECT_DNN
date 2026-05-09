@@ -31,3 +31,31 @@ The model learns to predict the next image and text based on previous sequence i
 ## 4. Current Status
 
 Baseline model training has been completed successfully.
+
+---
+
+## 5. Experiment 1: Grounding Improvements
+
+In this experiment, the grounding module was improved using:
+- Re-Identification Loss (ReID)
+- Frame-aware Grounding MSE Loss
+
+These changes help improve alignment between image regions and text descriptions.
+
+### Modified Code Snapshot
+
+```python
+loss_reid = F.mse_loss(z_r1, z_r2)
+
+loss_ground_mse = F.mse_loss(z_r1, z_t_match)
+```
+
+### Result
+
+The model showed improved grounding between visual and textual representations.
+
+![Experiment 1 Output 1](results/exp1_grounding_1.png)
+
+![Experiment 1 Output 2](results/exp1_grounding_2.png)
+
+![Experiment 1 Output 3](results/exp1_grounding_3.png)
