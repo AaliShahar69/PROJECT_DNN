@@ -61,3 +61,29 @@ The model showed improved grounding between visual and textual representations.
 ![Experiment 1 Output 3](results/exp1_grounding_3.png)
 
 
+---
+
+## 6. Experiment 2: Contrastive Alignment
+
+In this experiment, I added a contrastive alignment loss (InfoNCE) to improve multimodal matching between image and text embeddings.
+
+The objective was to:
+- bring correct image-text pairs closer
+- push incorrect pairs further apart
+
+### Modified Code Snapshot
+
+```python
+logits = (z_img @ z_txt.t()) / CONTRASTIVE_TAU
+loss_contrast = F.cross_entropy(logits, labels)
+```
+
+### Result
+
+The experiment showed stronger multimodal representation learning and improved alignment between visual and textual features.
+
+![Experiment 2 Output 1](results/exp2_contrastive_1.png)
+
+![Experiment 2 Output 2](results/exp2_contrastive_2.png)
+
+![Experiment 2 Output 3](results/exp2_contrastive_3.png)
