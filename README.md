@@ -87,3 +87,18 @@ The experiment showed stronger multimodal representation learning and improved a
 ![Experiment 2 Output 2](results/exp2_contrastive_2.png)
 
 ![Experiment 2 Output 3](results/exp2_contrastive_3.png)
+
+
+---
+
+## Repository Structure
+
+```text
+PROJECT_DNN/
+├── notebooks/
+├── logs/
+├── results/
+├── src/
+├── config.yaml
+└── README.md
+```
