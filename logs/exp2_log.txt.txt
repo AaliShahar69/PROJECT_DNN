@@ -1,0 +1,5 @@
+Epoch [1/5] Loss: 4.1509  (im=0.227, ctx=0.028, txt=3.883, reid=0.000, g_mse=0.000, nce=0.000, entpool=0.000)
+Epoch [2/5] Loss: 4.1378  (im=0.272, ctx=0.037, txt=3.216, reid=0.000, g_mse=0.000, nce=0.000, entpool=0.000)
+Epoch [3/5] Loss: 4.1422  (im=0.246, ctx=0.018, txt=4.187, reid=0.000, g_mse=0.000, nce=0.000, entpool=0.000)
+Epoch [4/5] Loss: 4.1421  (im=0.228, ctx=0.023, txt=3.625, reid=0.000, g_mse=0.000, nce=0.000, entpool=0.000)
+Epoch [5/5] Loss: 4.1391  (im=0.223, ctx=0.021, txt=4.679, reid=0.000, g_mse=0.000, nce=0.000, entpool=0.000)
