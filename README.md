@@ -1,4 +1,4 @@
-# Multimodal Sequence Prediction Project (Baseline)
+# Multimodal Sequence Prediction Project 
 
 ## 1. Project Overview
 
