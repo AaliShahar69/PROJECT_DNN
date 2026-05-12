@@ -91,6 +91,16 @@ The experiment showed stronger multimodal representation learning and improved a
 
 ---
 
+## Comparison of Experiments
+
+| Model Version | Main Modification | Expected Improvement |
+|---|---|---|
+| Baseline | Original architecture | Base performance |
+| Experiment 1 | ReID + Grounding MSE | Better grounding consistency |
+| Experiment 2 | Contrastive Alignment Loss | Better image-text alignment |
+
+---
+
 ## Repository Structure
 
 ```text
@@ -102,3 +112,14 @@ PROJECT_DNN/
 ├── config.yaml
 └── README.md
 ```
+
+## Summary
+
+This project explored multimodal sequence prediction using image and text inputs.  
+The baseline architecture was improved using grounding losses and contrastive alignment techniques.
+
+Experiment 1 focused on improving grounding consistency between image regions and textual descriptions using ReID and grounding MSE losses.
+
+Experiment 2 introduced contrastive alignment loss to improve multimodal representation learning and separation between correct and incorrect image-text pairs.
+
+Overall, the experiments demonstrated improved multimodal alignment and more consistent sequence representations.
